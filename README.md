@@ -6,5 +6,5 @@ When this screen is pushed onto the stack and the `TextInput` component has `aut
 ## Issue #2
 When this screen is popped from the stack and the software keyboard is presented (e.g. when the `TextInput` is focused), the software keyboard will flash and the animation will jitter.
 
-https://github.com/nickcherry/react-navigation-jitter/assets/229477/800e9f88-094c-4c7e-88a6-187ec1f64175
+https://github.com/nickcherry/react-navigation-jitter/assets/229477/4aa418b8-9592-4511-9d59-a101c9936e6f
 
