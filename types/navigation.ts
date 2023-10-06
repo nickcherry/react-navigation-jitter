@@ -1,4 +1,3 @@
-export const bottomTabsRoute = 'BottomTabs';
 export const homeStackRoute = 'HomeStack';
 
 export const homeRoute = 'Home';

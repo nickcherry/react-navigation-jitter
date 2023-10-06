@@ -1,8 +1,8 @@
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { FC, memo } from 'react';
-import { bottomTabsRoute } from '../types/navigation';
-import { BottomTabsNavigator } from './BottomTabsNavigator';
+import { homeStackRoute } from '../types/navigation';
+import { HomeStackNavigator } from './HomeStackNavigator';
 
 const RootStack = createNativeStackNavigator();
 
@@ -11,8 +11,8 @@ const Navigation: FC = memo(() => {
     <NavigationContainer>
       <RootStack.Navigator>
         <RootStack.Screen
-          name={bottomTabsRoute}
-          component={BottomTabsNavigator}
+          name={homeStackRoute}
+          component={HomeStackNavigator}
           options={{ headerShown: false }}
         />
       </RootStack.Navigator>
